@@ -29,13 +29,10 @@ body {
 header {
     width: 100%;
     height: 600px;
-     /* fallback for old browsers */
-    background: #660E0E; 
-     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #fc6161, #d10101),url(../img/portada.jpg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.531), hsla(196, 93%, 70%, 0.64), hsla(204, 64%, 44%, 0.627)),url(../img/portada.jpg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #D31027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EA384D, #D31027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EA384D, #D31027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+*/
     background-size: cover;
     background-attachment: fixed;
     position: relative;
